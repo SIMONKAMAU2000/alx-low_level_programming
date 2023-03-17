@@ -20,7 +20,7 @@ int main(void)
 				if (first + mid + last != 168)
 				{
 					putchar(',');
-					putchar(',');
+					putchar(' ');
 				}
 			}
 	putchar('\n');
