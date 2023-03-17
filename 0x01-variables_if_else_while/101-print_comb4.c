@@ -14,13 +14,13 @@ int main(void)
 		for (mid = (first + 1); mid < 57; mid++)
 			for (last = (mid + 1); last <= 57; last++)
 			{
-				putchat(first);
+				putchar(first);
 				putchar(mid);
 				putchar(last);
 				if (first + mid + last != 168)
 				{
 					putchar(',');
-					putchar(' ');
+					putchar(',');
 				}
 			}
 	putchar('\n');
