@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
- * _strup - copies a str and return a pointer
+ * _strdup - copies a str and return pointer
  * @str: string
+ *
  * Return: Pointer or NULL
  */
 char *_strdup(char *str)
