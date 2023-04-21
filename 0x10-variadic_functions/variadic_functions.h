@@ -7,7 +7,7 @@ typedef struct storage
 {
 	char *chr;
 	void (*funct)(va_list);
-}str;
+} str;
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
