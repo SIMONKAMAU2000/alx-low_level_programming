@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <fcntl.h>
 
 /**
  * read_textfile - reads a text file and prints it ot the POSIX standard output
@@ -43,4 +44,5 @@ ssize_t read_textfile(const char *fileName, size_t letters)
 	{
 		return (0);
 	}
+	return (lenw);
 }
